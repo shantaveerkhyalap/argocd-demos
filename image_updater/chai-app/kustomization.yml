@@ -9,7 +9,8 @@ resources:
   - secret.yml
 
 images:
-  - shantaveerkhyalap/chai-devops:v1.0.1
+  - name: shantaveerkhyalap/chai-devops
+    newTag: v1.0.1
 
 # (optional) you can put commonLabels or namespace here if you want
 # commonLabels:
